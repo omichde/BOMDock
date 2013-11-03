@@ -10,7 +10,11 @@ In case the settings could not be applied witht the users permission, it'll ask 
 
 # Background
 
-I could not find a reliable Dock Icon settings application anymore, Dock Dodger is aging and not working for me under Mavericks. But I still wanted SpamSieve, xScope and DragThing to be removed from my dock. It basically runs `defaults read/write [APPPATH] LSUIElement [PARA]` in order to tweak the app Info.plist file.
+I could not find a reliable Dock Icon settings application anymore, Dock Dodger is aging and not working for me under Mavericks. But I still wanted SpamSieve  and DragThing to be removed from my dock. It basically runs `defaults read/write [APPPATH] LSUIElement [PARA]` in order to tweak the app Info.plist file.
+
+# Caution
+
+Applications with hidden dock icons will not display a menu bar anymore! This connection is deeply rooted in OS-X and cannot be seperated/fixed.
 
 # Version
 
